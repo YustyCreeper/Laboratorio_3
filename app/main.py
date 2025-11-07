@@ -11,3 +11,8 @@ def read_root():
 @app.get("/hello")
 def hello():
     return {"message": "Hello world"}
+
+
+@app.get("/test")
+def hola():
+    return {"message": "test endpoint"}
