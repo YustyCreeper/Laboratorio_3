@@ -20,3 +20,6 @@ def test_hola_endpoint():
     response = client.get("/test")
     assert response.status_code == 200
     assert response.json() == {"message": "test endpoint"}
+
+
+# comentario
